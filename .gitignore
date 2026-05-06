@@ -12,9 +12,15 @@ __pycache__/
 data/raw/*
 data/processed/*
 data/cache/*
+data/bronze/*
+data/silver/*
+data/gold/*
 !data/raw/.gitkeep
 !data/processed/.gitkeep
 !data/cache/.gitkeep
+!data/bronze/.gitkeep
+!data/silver/.gitkeep
+!data/gold/.gitkeep
 
 # Models & embeddings
 models/
@@ -25,6 +31,7 @@ outputs/*
 reports/*
 !outputs/.gitkeep
 !reports/.gitkeep
+!reports/*.md
 
 # Environment variables
 .env
